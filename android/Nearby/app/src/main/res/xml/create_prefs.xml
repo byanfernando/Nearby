@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="Joe Cool"
+        android:inputType="textCapWords"
+        android:key="firstlast"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Display name" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="jcool"
+        android:inputType="text"
+        android:key="username"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Username" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="hunter2"
+        android:inputType="text"
+        android:key="password"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Password" />
+
+    <Preference android:title="Create!"
+        android:key="closeandsave"
+        android:summary="Create your new account" />
+
+</PreferenceScreen>
